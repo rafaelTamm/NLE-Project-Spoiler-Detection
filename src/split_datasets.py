@@ -73,11 +73,11 @@ def split_dataset(input_file, output_prefix):
 
 
 split_dataset(
-    "imdb_spoiler_20000.csv",
-    "imdb"
+    "data/imdb_spoiler_20000.csv",
+    "data/imdb"
 )
 
 split_dataset(
-    "goodreads_spoiler_20000.csv",
-    "goodreads"
+    "data/goodreads_spoiler_20000.csv",
+    "data/goodreads"
 )
