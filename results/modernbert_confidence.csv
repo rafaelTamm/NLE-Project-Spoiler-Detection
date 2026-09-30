@@ -1,0 +1,3 @@
+Experiment,Mean Confidence,Correct Confidence,Incorrect Confidence,Errors,High Confidence Errors,High Confidence Error Share
+IMDb → Goodreads,0.86256635,0.8874425,0.7948997,829,271,0.32689987937273823
+Goodreads → IMDb,0.9077348,0.9230353,0.8775655,1099,675,0.6141947224749773

@@ -3,8 +3,8 @@ import json
 import random
 import pandas as pd
 
-INPUT_FILE = "IMDB_reviews.json"
-OUTPUT_FILE = "imdb_spoiler_20000.csv"
+INPUT_FILE = "data/IMDB_reviews.json"
+OUTPUT_FILE = "data/imdb_spoiler_20000.csv"
 
 N_PER_CLASS = 10000
 RANDOM_SEED = 42

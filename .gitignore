@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific ignores
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Model checkpoints and experiment artifacts
+checkpoints/
+models/
+wandb/
+
+# Hugging Face checkpoints
+**/checkpoint-*/
+
+# Original large source datasets
+data/IMDB_reviews.json
+data/goodreads_reviews_spoiler.json
