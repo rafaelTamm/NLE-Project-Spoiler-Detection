@@ -5,7 +5,8 @@ from sklearn.model_selection import GroupShuffleSplit
 def split_dataset(input_file, output_prefix):
     df = pd.read_csv(input_file)
 
-    #  split in training validation und test
+    # Split by item ID to prevent reviews of the same movie or book
+    # from appearing in multiple dataset partitions.
     splitter = GroupShuffleSplit(
         n_splits=1,
         train_size=0.7,
@@ -22,7 +23,7 @@ def split_dataset(input_file, output_prefix):
     train_df = df.iloc[train_idx].copy()
     temp_df = df.iloc[temp_idx].copy()
 
-    # Die restlichen 30 % halbieren
+    # Split the remaining 30% equally into validation and test sets.
     splitter_temp = GroupShuffleSplit(
         n_splits=1,
         train_size=0.5,

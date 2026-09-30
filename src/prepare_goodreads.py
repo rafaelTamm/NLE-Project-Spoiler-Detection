@@ -2,8 +2,8 @@ import json
 import random
 import pandas as pd
 
-INPUT_FILE = "goodreads_reviews_spoiler.json"
-OUTPUT_FILE = "goodreads_spoiler_20000.csv"
+INPUT_FILE = "data/goodreads_reviews_spoiler.json"
+OUTPUT_FILE = "data/goodreads_spoiler_20000.csv"
 
 N_PER_CLASS = 10000
 RANDOM_SEED = 42
