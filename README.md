@@ -4,7 +4,7 @@ This repository contains the implementation and evaluation of a cross-domain spo
 
 The main research question is:
 
-> How strongly does spoiler detection performance decrease when a model trained on one review domain is evaluated on another domain?
+> How well do text-based spoiler classifiers transfer between the IMDb movie-review and Goodreads book-review datasets?
 
 Two approaches are compared:
 
